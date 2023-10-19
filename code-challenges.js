@@ -10,8 +10,8 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a conditional statement that evaluates two strings and determines which of the strings has more characters. Use the two sets of test variables provided.
 
 // Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
+// const fruit1 = "apple"
+// const fruit2 = "banana"
 // Expected outcome: "banana"
 
 // Set two:
@@ -28,38 +28,42 @@ const fruit2 = "banana"
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+const combinedRuns = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+console.log(combinedRuns.length)
 // Expected output: 9
 
-// Pseudo code: First we would make a new const and call it CombinedRuns or WorldSeriesRuns
-// const CombinedRuns = [2, 5, 2, 2, 4, 6, 3, 5, 3]
-// const WorldSeriesRuns = [2, 5, 2, 2, 4, 6, 3, 5, 3]
-// Since we know the expected output is 9 we know they want the arrays to show all in one
-// console.log(CombinedRuns)
-// console.log(WorldSeriesRuns)
-// Either one should return 9
-// Can also use console.log(padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+// Pseudo code: Input orginal arrays
+// Output length of combined arrays (9)
+// Use concat to combine arrays
+// Run the new variable combinedRuns with .length
 
 // --------------------2) Create the code that will reverse the letters of a string using the test variable provided below.
 
-const currentCohort = "Golf 2023"
+// const currentCohort = "Golf 2023"
+// var reverseCohort = currentCohort.split("")
+// console.log(reverseCohort.reverse().join(""))
 // Expected output: "3202 floG"
 
-// Pseudo code: I am guessing its console.log(currentCohort.reverse)
-//console.log(currentCohort.reverse())
-//Failed
-//CharsReversed?
-// var stringToArray = currentCohort.split()
-// ["Golf 2023"]
-// var stringToArray = currentCohort.split("")
-// var stringToArray.reverse()
-// var arrayToString = stringToArray.join()
-// var arrayToString = stringToArray.join("")
-//??
+// Pseudo code: Input the string currentCohort
+// Output the Orginal string reversed
+//Make a new variable for the reversed string
+//We need to make the string into a array using .split
+//Once the string is in an array we can use built methods to adjust the orginal string into desired string
+//Used .reverse and .join
 
 
 // --------------------3) Create the code that will log only the odd numbers from the array using the test variable provided below.
 
-const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
+// const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
+// for (let i = 0; i < stockExchange.length; i++) {
+//     if (stockExchange[i] % 2 !== 0) {
+// console.log(stockExchange[i])
+//     }
+// }
 // Expected output: 13 5 -5 27
 
-// Pseudo code: 
+// Pseudo code: input is array called stockExchange
+// output odd numbers
+// Create a for loop using the orginal array 
+// Make a conditional statement to divide each value in the array by 2 to determine its a odd number
+// Console.log stockExchange to return the odd values

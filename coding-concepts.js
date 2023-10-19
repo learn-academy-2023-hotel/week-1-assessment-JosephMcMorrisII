@@ -12,7 +12,7 @@ console.log(colors.push("indigo"))
 
 // a) Your answer: Return ["tangerine", "magenta", "lilac", "daffodil", "indigo"]
 // b) Verify and explain: Return 5
-// This returned 5 because its a mutator which is just informing of which index it placed the new data
+// This returned 5 because the mutator .push only added indigo to the total number of values in the array at the end
 
 // --------------------1) What will this log?
 
@@ -59,4 +59,4 @@ console.log(typeof dataTypes.length)
 
 // a) Your answer: 4
 // b) Verify and explain: number
-// not really sure why it returned number.
+// The console.log is looking at the entire array and counting 4 values however typeof is evaluating what kind of data 4 is
