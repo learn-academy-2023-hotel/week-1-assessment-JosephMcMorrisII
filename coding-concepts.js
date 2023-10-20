@@ -8,26 +8,30 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Return ["tangerine", "magenta", "lilac", "daffodil", "indigo"]
+// b) Verify and explain: Return 5
+// This returned 5 because the mutator .push only added indigo to the total number of values in the array at the end
 
 // --------------------1) What will this log?
 
 const cohort = "LEARN 2023"
-// console.log(cohort.length)
+//console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Return 9
+// b) Verify and explain: The command cohort.legnth returns the number of characters inside the """
+// The reason it's 10 instead of 9 is that it counts the space as a character too
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
-// console.log(greeting[4])
+//console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: l
+// b) Verify and explain: Return o
+// Because o is the 4th position of the index
+// It goes 0 , 1 , 2 , 3 , 4 which its techincally the 5th letter if youre looking at it
 
 // --------------------3) What will this log?
 
@@ -35,21 +39,24 @@ const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const index = 1
 // console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Return Ruby
+// b) Verify and explain: The code is asking out of the listed languages in the array which one falls in the index 1 position
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+//console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: SATURDAY , SUNDAY
+// b) Verify and explain: "SATURDAY , SUNDAY"
+// The code toUpperCase means to capitalize whatever is inside the string
+// Saturday , Sunday are the listed strings inside the array
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 4
+// b) Verify and explain: number
+// The console.log is looking at the entire array and counting 4 values however typeof is evaluating what kind of data 4 is
